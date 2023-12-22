@@ -2,7 +2,7 @@
 
 def load(file):
     with open(file) as f:
-        values = [line.strip() for line in f.readlines()]
+        values = [line.strip() for line in f]
     return values
 
 def part1(values):
